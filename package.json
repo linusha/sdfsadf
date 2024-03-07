@@ -1,0 +1,35 @@
+{
+  "name": "linusha--sdfsadf",
+  "author": {
+    "name": "linusha"
+  },
+  "description": "",
+  "scripts": {
+    "build": "rm -rf build/* && export MINIFY='' && ./tools/build.sh",
+    "build-minified": "rm -rf build/* && export MINIFY=true && ./tools/build.sh"
+  },
+  "dependencies": {
+    "@rollup/plugin-json": "4.1.0",
+    "rollup": "^2.70.2",
+    "rollup-plugin-export-default": "1.4.0",
+    "rollup-plugin-polyfill-node": "0.9.0"
+  },
+  "lively": {
+    "projectDependencies": [],
+    "boundLivelyVersion": "e0f64f67e54d2c16df0b68a953d0a223d09c0a03",
+    "repositoryIsPrivate": false,
+    "repoBelongsToOrg": false,
+    "testActionEnabled": true,
+    "buildActionEnabled": false,
+    "testOnPush": true,
+    "buildOnPush": false,
+    "deployOnPush": false,
+    "canUsePages": true,
+    "deployActionEnabled": true
+  },
+  "version": "0.1.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/linusha/sdfsadf"
+  }
+}
